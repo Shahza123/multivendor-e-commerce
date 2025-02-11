@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.js", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/(back-office)/dashbaord/page.jsx", "tailwind.config.js", "app/layout.jsx", "app/(back-office)/dashbaord/staff/page.jsx", "app/(back-office)/dashbaord/markets/page.jsx", "app/(back-office)/dashbaord/farmers/page.jsx", "app/(back-office)/dashbaord/cutomers/page.jsx", "app/(back-office)/dashbaord/(catalogue)/products/page.jsx", "app/(back-office)/dashbaord/(catalogue)/coupons/page.jsx", "app/(back-office)/dashbaord/(catalogue)/categories/page.jsx", "app/(back-office)/dashbaord/(catalogue)/banners/page.jsx", "app/(back-office)/dashbaord/(catalogue)/attributes/page.jsx", "app/(front-end)/honme/page.jsx", "app/(back-office)/layout.jsx"],
+  "exclude": ["node_modules"]
+}

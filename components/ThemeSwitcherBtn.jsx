@@ -15,6 +15,7 @@ export default function ThemeSwitcherBtn() {
     if (mounted) {
       setTheme("dark");
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mounted]);
   if (!mounted) {
     return null;

@@ -15,7 +15,7 @@ import { signOut } from "next-auth/react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
-export default function userAvatar({ user = {} }) {
+export default function UserAvatar({ user = {} }) {
   const { name, image } = user;
   const initials = generateInitials(name);
 

@@ -66,6 +66,7 @@ export const columns = [
         <div className="shrink-0">
           <Image
             src={imageUrl}
+            alt="error"
             width={500}
             height={500}
             className="w-10 h-10 rounded-full object-cover"

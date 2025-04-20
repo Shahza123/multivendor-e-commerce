@@ -2,6 +2,7 @@ import React from 'react'
 import { convertIsoDateToNormal } from "@/lib/convertIsoDateToNormal"
 import Link from 'next/link';
 import generateSlug from "@/lib/generateSlug";
+import Image from 'next/image';
 export default function OrderCard({ order }) {
     const orderCreationDate = convertIsoDateToNormal(order.createdAt);
     const subTotal = order?.orderItems.reduce((total, item) =>
@@ -55,7 +56,7 @@ export default function OrderCard({ order }) {
                                     return <li key={i}
                                         className="relative flex pb-10 sm:pb-0">
                                         <div className="flex-shrink-0">
-                                            <img className="object-cover rounded-lg w-28 h-28" src={item.imageUrl} alt={item.title} />
+                                            <Image className="object-cover rounded-lg w-28 h-28" src={item.imageUrl} alt={item.title} />
                                         </div>
 
                                         <div className="flex flex-col justify-between flex-1 ml-5">

@@ -75,7 +75,7 @@ export default function OrderSummary() {
       </h2>
       {cartItems.map((cartItems, i) => {
         return (
-          <div className="flex mb-4 items-center font-semibold text-sm  justify-between text-slate-400 pb-3 border-b border-slate-400">
+          <div className="flex mb-4 items-center font-semibold text-sm  justify-between text-slate-400 pb-3 border-b border-slate-400" key={i}>
             <div className="flex items-center gap-3">
               <Image
                 src={cartItems.imageUrl}

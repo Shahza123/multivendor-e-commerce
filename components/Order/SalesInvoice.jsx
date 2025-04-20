@@ -67,7 +67,7 @@ export default function SalesInvoice() {
                 scope="row"
                 className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
               >
-                Apple MacBook Pro 17"
+                Apple MacBook Pro 17&quot
               </th>
               <td className="px-6 py-4">Silver</td>
               <td className="px-6 py-4">2</td>

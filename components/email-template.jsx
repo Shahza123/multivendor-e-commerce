@@ -52,7 +52,7 @@ export const EmailTemplate = ({
         </Section> */}
 
         <Text style={text}>
-          If you didn't request this email, there's nothing to worry about, you
+          If you didn&apost request this email, there&aposs nothing to worry about, you
           can safely ignore it.
         </Text>
 
